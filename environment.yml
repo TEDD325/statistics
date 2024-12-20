@@ -8,3 +8,4 @@ dependencies:
   - pandas=2.1.4       # pandas 버전 지정
   - matplotlib=3.8.0   # matplotlib 버전 지정
   - seaborn=0.12.2     # seaborn 버전 지정
+  - scipy==1.11.3
