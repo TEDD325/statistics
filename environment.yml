@@ -1,0 +1,10 @@
+# conda env update --name existing_environment_name --file environment.yml --prune
+name: my_environment  # 환경 이름
+channels:
+  - defaults          # 기본 채널
+  - conda-forge        # 추가 채널 (필요한 경우)
+dependencies:
+  - numpy=1.26.4       # numpy 버전 지정
+  - pandas=2.1.4       # pandas 버전 지정
+  - matplotlib=3.8.0   # matplotlib 버전 지정
+  - seaborn=0.12.2     # seaborn 버전 지정
